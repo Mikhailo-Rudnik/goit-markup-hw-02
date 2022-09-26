@@ -11,6 +11,10 @@
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
 }
 
+body {
+  font-family: Roboto, sans-serif;
+}
+
 ul {
   list-style: none;
 }
@@ -24,7 +28,7 @@ ul {
 .logo {
   color: var(--acctnt-color);
 
-  font-family: 'Raleway';
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -34,7 +38,7 @@ ul {
 .logo-studioheader {
   color: var(--logo-studio-header-color);
 
-  font-family: 'Raleway';
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -62,7 +66,6 @@ ul {
 .contacts .tel {
   color: var(--contacts-features-text-color);
 
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -77,8 +80,6 @@ ul {
 .hero-title {
   color: var(--hero-studio-footer-text-color);
 
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -91,7 +92,6 @@ ul {
   background-color: var(--acctnt-color);
   color: var(--hero-studio-footer-text-color);
 
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -107,6 +107,11 @@ ul {
 }
 
 /* Наші переваги */
+
+.features {
+  background-color: var(--features-bcg-color);
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -119,4 +124,82 @@ ul {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.features-title {
+  color: var(--title-black-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.features-text {
+  color: var(--contacts-features-text-color);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* Чим ми займаємося*/
+.work {
+  background-color: var(--features-bcg-color);
+}
+
+.work-title {
+  color: var(--title-black-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Команда */
+.team {
+  background-color: var(--team-bcg-color);
+}
+
+.team-title {
+  color: var(--title-black-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-name {
+  color: var(--title-black-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.team-job {
+  color: var(--contacts-features-text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+/* Footer */
+.logo-studiofooter {
+  color: var(--hero-studio-footer-text-color);
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
