@@ -13,9 +13,10 @@
 
 body {
   font-family: Roboto, sans-serif;
+  color: var(--title-black-color);
 }
 
-ul {
+.list {
   list-style: none;
 }
 
@@ -45,8 +46,8 @@ ul {
   letter-spacing: 0.03em;
 }
 
-.site-nav .link {
-  color: var(--title-black-color);
+.nav-link {
+  color: inherit;
 
   font-weight: 500;
   font-size: 14px;
@@ -54,16 +55,18 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus,
-.site-nav .current,
-.contacts .link:hover,
-.contacts .link:focus {
+.nav-link:hover,
+.nav-link:focus,
+.nav-site .current,
+.mail:hover,
+.mail:focus,
+.tel:hover,
+.tel:focus {
   color: var(--acctnt-color);
 }
 
-.contacts .mail,
-.contacts .tel {
+.mail,
+.tel {
   color: var(--contacts-features-text-color);
 
   font-weight: 500;
@@ -83,7 +86,6 @@ ul {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -92,12 +94,11 @@ ul {
   background-color: var(--acctnt-color);
   color: var(--hero-studio-footer-text-color);
 
+  font-family: inherit;
+  cursor: pointer;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
 }
 
@@ -127,8 +128,6 @@ ul {
 }
 
 .features-title {
-  color: var(--title-black-color);
-
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -139,7 +138,6 @@ ul {
 .features-text {
   color: var(--contacts-features-text-color);
 
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -151,8 +149,6 @@ ul {
 }
 
 .work-title {
-  color: var(--title-black-color);
-
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -166,8 +162,6 @@ ul {
 }
 
 .team-title {
-  color: var(--title-black-color);
-
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -176,8 +170,6 @@ ul {
 }
 
 .team-name {
-  color: var(--title-black-color);
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -187,13 +179,17 @@ ul {
 .team-job {
   color: var(--contacts-features-text-color);
 
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
 /* Footer */
+
+.footer {
+  background-color: var(--hero-bcg-color-footer);
+}
+
 .logo-studiofooter {
   color: var(--hero-studio-footer-text-color);
 
@@ -202,4 +198,34 @@ ul {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+}
+
+.address {
+  font-style: normal;
+}
+
+.google {
+  color: var(--hero-studio-footer-text-color);
+
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.mail-address,
+.tel-address {
+  color: var(--footer-contacts-color);
+
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.google:hover,
+.google:focus,
+.mail-address:hover,
+.mail-address:focus,
+.tel-address:hover,
+.tel-address:focus {
+  color: var(--acctnt-color);
 }
