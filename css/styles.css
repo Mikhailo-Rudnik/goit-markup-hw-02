@@ -27,7 +27,7 @@ body {
 /* header */
 
 .logo {
-  color: var(--acctnt-color);
+  color: var(--logo-studio-header-color);
 
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -36,14 +36,8 @@ body {
   letter-spacing: 0.03em;
 }
 
-.logo-studioheader {
-  color: var(--logo-studio-header-color);
-
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+.web {
+  color: var(--acctnt-color);
 }
 
 .nav-link {
@@ -173,6 +167,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  text-align: center;
   letter-spacing: 0.03em;
 }
 
@@ -181,6 +176,7 @@ body {
 
   font-size: 16px;
   line-height: 1.19;
+  text-align: center;
   letter-spacing: 0.03em;
 }
 
@@ -228,4 +224,39 @@ body {
 .tel-address:hover,
 .tel-address:focus {
   color: var(--acctnt-color);
+}
+
+/* ПОРТФОЛІО */
+
+.button {
+  background-color: var(--team-bcg-color);
+  color: inherit;
+
+  font-family: inherit;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+
+.button.current {
+  background-color: var(--acctnt-color);
+  color: var(--hero-studio-footer-text-color);
+}
+
+.name-work {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.app {
+  color: var(--contacts-features-text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
 }
