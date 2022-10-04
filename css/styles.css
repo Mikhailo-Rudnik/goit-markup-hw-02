@@ -14,6 +14,8 @@
 body {
   font-family: Roboto, sans-serif;
   color: var(--title-black-color);
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
 
 .list {
@@ -33,7 +35,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 
 .logo-studioheader {
@@ -43,14 +44,12 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 
 .nav-link {
   color: inherit;
 
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -70,7 +69,6 @@ body {
   color: var(--contacts-features-text-color);
 
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -131,16 +129,13 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .features-text {
   color: var(--contacts-features-text-color);
 
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 
 /* Чим ми займаємося*/
@@ -153,7 +148,6 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 /* Команда */
@@ -166,7 +160,6 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .team-name {
@@ -174,7 +167,6 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .team-job {
@@ -183,7 +175,6 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 /* Footer */
@@ -199,7 +190,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 
 .address {
@@ -209,18 +199,14 @@ body {
 .google {
   color: var(--hero-studio-footer-text-color);
 
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 
 .mail-address,
 .tel-address {
   color: var(--footer-contacts-color);
 
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 
 .google:hover,
@@ -243,10 +229,11 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  letter-spacing: 0.03em;
 }
 
-.button.current {
+.button.current,
+.button:hover,
+.button:focus {
   background-color: var(--acctnt-color);
   color: var(--hero-studio-footer-text-color);
 }
